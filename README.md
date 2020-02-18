@@ -1,5 +1,7 @@
 # NativeSettings plugin for Cordova (6/7)
 
+* Fork removing unnalowed URL schemas from the Objective C code, only allows application_details on iOS *
+
 The plugin allows you to open OS settings on iOS 8/9/10 and Android, via cordova-based app. For example, it will allow you to open the keyboard settings, Wifi, bluetooth etc (full list below).
 
 ## Adding/Removing the Plugin
@@ -104,55 +106,7 @@ Setting constant | Description
 
 Setting constant | Description
 -----------------|------------
-"about" | Settings > General > About
-"accessibility" | Settings > General > Accessibility
-"account" | Settings > _Your name_
-"airplane_mode" | Settings > Airplane Mode
 "application_details" | Settings
-"autolock" | Settings > General > Auto-Lock (before iOS 10)
-"battery" | Settings > Battery
-"bluetooth" | Settings > General > Bluetooth (before iOS 9)<br>Settings > Bluetooth (after iOS 9)
-"browser" | Settings > Safari
-"castle" | Settings > iCloud
-"cellular_usage" | Settings > General > Cellular Usage
-"configuration_list" | Settings > General > Profile
-"date" | Settings > General > Date & Time
-"display" | Settings > Display & Brightness
-"do_not_disturb" | Settings > Do Not Disturb
-"facetime" | Settings > Facetime
-"keyboard" | Settings > General > Keyboard
-"keyboards" | Settings > General > Keyboard > Keyboards
-"locale" | Settings > General > Language & Region
-"location" | Settings > Location Services (in older versions of iOS)
-"locations" | Settings > Privacy > Location Services (in newer versions of iOS)
-"mobile_data" | Settings > Mobile Data (after iOS 10)
-"music" | Settings > iTunes
-"music_equalizer" | Settings > Music > EQ
-"music_volume" | Settings > Music > Volume Limit
-"network" | Settings > General > Network
-"nike_ipod" | Settings > Nike + iPod
-"notes" | Settings > Notes
-"notification_id" | Settings > Notifications
-"passbook" | Settings > Passbook & Apple Pay
-"phone" | Settings > Phone
-"photos" | Settings > Photo & Camera
-"privacy" | Settings > Privacy
-"reset" | Settings > General > Reset
-"ringtone" | Settings > Sounds > Ringtone
-"search" | Settings > General > Assistant (before iOS 10)<br>Settings > Siri (after iOS 10)
-"settings" | Settings > General
-"sound" | Settings > Sounds
-"software_update" | Settings > General > Software Update
-"storage" | Settings > iCloud > Storage & Backup
-"store" | Settings > iTunes & App Store
-"tethering" | Settings > Personal Hotspot
-"touch" | Settings > Touch ID & Passcode
-"twitter" | Settings > Twitter
-"usage" | Settings > General > Storage & iCloud Usage
-"video" | Settings > Video
-"vpn" | Settings > General > VPN
-"wallpaper" | Settings > Wallpaper
-"wifi" | Settings > WIFI
 
 ## Notes
 * Android plugin based on the following information: https://developer.android.com/reference/android/provider/Settings.html#ACTION_DREAM_SETTINGS
